@@ -1,0 +1,45 @@
+
+.outfit {
+    font-family: "Outfit", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+.carte {
+    background-color: hsl(216, 50%, 16%);
+    height: 420px;
+    width: 220px;
+    color: white;
+    border-radius: 10px;
+    box-shadow: 0px 0px 35px 1px black;
+    padding: 20px;
+}
+
+.cardHeader {
+    background: url("../assets/images/image-equilibrium.jpg");
+    background-size:cover;
+    background-repeat: no-repeat;
+    height: 50%;
+    width: 100%;
+    border-radius: 10px;
+}
+
+.cardBody {
+    height: 35%;
+}
+
+.cardTitle {
+    color: white;
+    font-family: "Outfit", sans-serif;
+    font-weight: 600;
+}
+
+.cardP {
+    color:white;
+    font-family: "Outfit", sans-serif;
+}
+
+.cardFooter {
+    height: 15%;
+}
