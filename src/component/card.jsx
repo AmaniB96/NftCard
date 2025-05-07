@@ -8,7 +8,7 @@ export default function Card() {
     return (
         <div className="carte">
             <div className="cardHeader">
-               
+             <div className="hover"> <img src={Icon3} alt="" /></div>  
             </div>
 
             <div className="cardBody">
@@ -27,7 +27,7 @@ export default function Card() {
             <div className="cardFooter">
                 <div className="creator">
                     <img src={Image1} alt="" />
-                    <p>Creation of Jules Wyvern</p>
+                    <p> <span>Creation of</span> Jules Wyvern</p>
                 </div>
             </div>
         </div>
