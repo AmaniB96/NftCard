@@ -2,6 +2,7 @@ import "./card.css";
 import Icon1 from "../assets/images/icon-ethereum.svg"
 import Icon2 from "../assets/images/icon-clock.svg"
 import Icon3 from "../assets/images/icon-view.svg"
+import Image1 from "../assets/images/image-avatar.png"
 
 export default function Card() {
     return (
@@ -25,7 +26,7 @@ export default function Card() {
 
             <div className="cardFooter">
                 <div className="creator">
-                    <img src="" alt="" />
+                    <img src={Image1} alt="" />
                     <p>Creation of Jules Wyvern</p>
                 </div>
             </div>
