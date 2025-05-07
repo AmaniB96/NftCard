@@ -9,7 +9,7 @@
 .carte {
     background-color: hsl(216, 50%, 16%);
     height: 420px;
-    width: 220px;
+    width: 235px;
     color: white;
     border-radius: 10px;
     box-shadow: 0px 0px 35px 1px black;
@@ -31,13 +31,18 @@
 
 .cardTitle {
     color: white;
-    font-family: "Outfit", sans-serif;
     font-weight: 600;
+    font-size: 13pt;
 }
 
 .cardP {
-    color:white;
-    font-family: "Outfit", sans-serif;
+    color:rgba(255, 255, 255, 0.526);
+   
+}
+
+.cardMoney {
+    display: flex;
+    justify-content: space-between;
 }
 
 .cardFooter {

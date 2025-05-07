@@ -1,4 +1,7 @@
 import "./card.css";
+import Icon1 from "../assets/images/icon-ethereum.svg"
+import Icon2 from "../assets/images/icon-clock.svg"
+import Icon3 from "../assets/images/icon-view.svg"
 
 export default function Card() {
     return (
@@ -14,9 +17,9 @@ export default function Card() {
                 <div className="cardP">
                     <p>Our Equilibrium collection promotes balance and calm.</p>
                 </div>
-                <div>
-                    <div id="eth"></div>
-                    <div id="days"></div>
+                <div className="cardMoney">
+                    <div id="eth"> <img src={Icon1} alt="" /> 0.041 ETH</div>
+                    <div id="days"> <img src={Icon2} alt="" /> 3 days left</div>
                 </div>
             </div>
 
